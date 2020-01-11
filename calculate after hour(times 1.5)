@@ -1,11 +1,13 @@
-hrs=(input("Enter hours")
+hrs=input("Enter hours")
 h=float(hrs)
-rate=input("Enter your rate per hour")
+rate=input("Enter rate per hour")
 r=float(rate)
-def calculatesalary(h, r):
-    if(h>40):
+def computepay(h,r):
+    if(h<40):
         return print(h*r)
     else:
-    truesalary=(h-40)*(r*1.5)+(40*r)
-    return print(truesalary)
-computesalary(h, r)
+        truework=(h-40)*(r*1.5)+40*r
+        return print(truework)
+computepay(h,r)
+
+
