@@ -1,0 +1,11 @@
+hrs=(input("Enter hours")
+h=float(hrs
+rate=input("Enter your rate per hour")
+r=float(rate)
+def calculatesalary(h, r):
+    if(h>40):
+        return print(h*r)
+    else:
+    truesalary=(h-40)*(r*1.5)+(40*r)
+    return print(truesalary)
+computesalary(h, r)
