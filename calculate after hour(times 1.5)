@@ -1,5 +1,5 @@
 hrs=(input("Enter hours")
-h=float(hrs
+h=float(hrs)
 rate=input("Enter your rate per hour")
 r=float(rate)
 def calculatesalary(h, r):
